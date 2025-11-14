@@ -90,7 +90,7 @@ double total = monthlypayment * months;
 double trate = total - principal;
 
  System.out.println("loan amount:"  + principal);
- System.out.println("monthly payment: " + months);
+ System.out.println("monthly payment: " + monthlypayment);
  System.out.println("total payment: " + total);
  System.out.println("total interest: " + trate);
  input.close();
